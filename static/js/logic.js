@@ -170,7 +170,7 @@ function map(geojson, faults, info) {
 
 // GeoJSON API url
 var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-var url2 = "./static/js/boundaries.json";
+var url2 = "./boundaries.json";
 
 d3.json(url, function(data) {
     d3.json(url2, function(faults) {
